@@ -10,6 +10,7 @@ our $LIST = {
     entries => [
         { module => "Acme::Test::crypt", summary => 'Check crypt() support in various platforms' },
         { module => "App::PlatformInfo", summary => 'Result of Devel::Platform::Info on various testing machines' },
+        { module => "Acme::CPAN::Testers::DevelCheckOS", summary => 'Result of Devel::CheckOS::{list_platforms,os_is} on various testing machines' },
     ],
 };
 
